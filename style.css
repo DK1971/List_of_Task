@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 992px;
+  background-color: #C9DFEB;
+  gap: 15px;
+}
+
+/* Блок постановки задачи */
+.task-box {
+  display: flex;
+  gap: 15px;
+}
+
+.task-input {
+  padding: 15px 20px;
+  width: calc(100% - 165px);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-task {
+  background-color: #EF5D28;
+}
+
+/* Блок отображения задач */
+.task-card-box {
+  display: flex;
+}
+
+.task-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 15px;
+}
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 20px;
+  width: 310px;
+  min-width: 260px;
+  font-size: 14px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.title-card {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.title-card-completed {
+  margin: 0;
+  color: white;
+}
+
+.btn-completed {
+  background-color: #5EAB47;
+}
+
+.btn-edit,
+.btn-delete {
+  background-color: #858585;
+}
+
+.card-completed {
+  background-color: #5EAB47;
+}
+
+.btn-delete-completed {
+  background-color: #1B4D07;
+}
